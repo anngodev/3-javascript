@@ -5,3 +5,7 @@
 
 */
 document.getElementById("text").innerHTML = "Hello An!";
+
+document.getElementById("myButton").onclick = function() {
+	document.getElementById("text").innerHTML = "Hello Rob!";
+}
