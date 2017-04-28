@@ -1,0 +1,19 @@
+#red {
+	background-color: red;
+}
+
+#blue {
+	background-color: blue;
+}
+
+#yellow {
+	background-color: yellow;
+}
+
+.circle {
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	margin: 10px;
+	float: left;
+}
