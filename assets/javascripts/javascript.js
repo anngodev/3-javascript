@@ -17,3 +17,15 @@ document.getElementById("myButton-2").onclick = function() {
 document.getElementById("myButton-3").onclick = function() {
 	document.getElementById("emptyParagraph").innerHTML = "Magic!";
 }
+
+document.getElementById("styleText").onclick = function() {
+	document.getElementById("moreText").style.color = "red";
+}
+
+document.getElementById("styleText").onclick = function() {
+	document.getElementById("moreText").style.display = "none";
+}
+
+
+
+
