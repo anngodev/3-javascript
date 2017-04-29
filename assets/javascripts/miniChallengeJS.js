@@ -25,7 +25,16 @@ myArray[0] = "pizza";
 
 myArray[1] = "chocolate";
 
-console.log(myArray.length);
+var tweets = ["Morning Everybody!", "I love coffee!"];
+
+tweets.push("Back to work");
+
+// delete tweet 1 inside array tweet starting from 1 to 1
+tweets.splice(1, 1, "Cornflakes for breakfast!", "Nom Nom");
+
+alert(tweets[1]);
+
+console.log(tweets);
 
 var x = 5;
 
