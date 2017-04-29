@@ -19,6 +19,14 @@ document.getElementById("poof").onclick = function() {
 
 }
 
+var myArray = new Array();
+
+myArray[0] = "pizza";
+
+myArray[1] = "chocolate";
+
+console.log(myArray.length);
+
 var x = 5;
 
 x = 20;
