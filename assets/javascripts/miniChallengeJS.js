@@ -19,6 +19,23 @@ document.getElementById("poof").onclick = function() {
 
 }
 
+document.getElementById("checkMagicWord").onclick = function() {
+
+	var magicWordEntered = document.getElementById("magicWord").value;
+
+	var magicWord = "Kazam!";
+
+	if (magicWordEntered == magicWord) {
+
+		alert("You got it!");
+
+	}	else {
+
+		alert("Nope, try again")
+
+	}	
+}
+
 var myArray = new Array();
 
 myArray[0] = "pizza";
@@ -38,10 +55,19 @@ alert(tweets[1]);
 
 console.log(tweets);
 
-var x = 5;
-
-x = 20;
-
 var name = "An";
 
 alert(name);
+
+var x = 2;
+
+if (x == 1) {
+
+	alert("x is 1");
+
+} else {
+
+	alert("x is not 1");
+}
+
+
