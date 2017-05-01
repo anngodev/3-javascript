@@ -25,6 +25,8 @@ myArray[0] = "pizza";
 
 myArray[1] = "chocolate";
 
+myArray[2] = "donuts"
+
 var tweets = ["Morning Everybody!", "I love coffee!"];
 
 tweets.push("Back to work");
