@@ -11,7 +11,7 @@ document.getElementById("makeGuess").onclick = function() {
 
 	if (document.getElementById("guessNum").value == randomNumber) {
 
-		alert("You got it!");
+		alert("You got it right!");
 
 	}	else {
 
