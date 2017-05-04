@@ -20,3 +20,9 @@ document.getElementById("makeGuess").onclick = function() {
 
 
 }
+
+
+
+// for loops
+
+	for (var i = 0; i < 5; i++)
