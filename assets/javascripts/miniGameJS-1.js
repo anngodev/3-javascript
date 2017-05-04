@@ -21,6 +21,7 @@ document.getElementById("makeGuess").onclick = function() {
 
 }
 
+var tweetString = "";
 
 var tweets = ["Hi Everybody!", "Good Morning!", "Good Night!", "Midnight..."];
 
@@ -28,5 +29,7 @@ var tweets = ["Hi Everybody!", "Good Morning!", "Good Night!", "Midnight..."];
 
 	for (var i = 0; i < tweets.length; i++) {
 
-		alert(tweets[i]);
-	}
+		tweetString = tweetString + "<p>" + tweets[i] + "</p>";
+}
+
+document.getElementById("tweetDiv").innerHTML = tweetString;
