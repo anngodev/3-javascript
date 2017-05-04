@@ -22,10 +22,11 @@ document.getElementById("makeGuess").onclick = function() {
 }
 
 
+var tweets = ["Hi Everybody!", "Good Morning!", "Good Night!", "Midnight..."];
 
 // for loops
 
-	for (var i = 5; i > 0; i--) {
+	for (var i = 0; i < tweets.length; i++) {
 
-		alert(i);
+		alert(tweets[i]);
 	}
