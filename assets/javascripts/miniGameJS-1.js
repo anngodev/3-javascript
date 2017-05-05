@@ -23,7 +23,7 @@ document.getElementById("makeGuess").onclick = function() {
 
 var tweetString = "";
 
-var tweets = ["Hi Everybody!", "Good Morning!", "Good Night!", "Midnight..."];
+var tweets = ["Hi Everybody!", "Good Morning!", "Good Night!", "Midnight...", "Can't sleep..."];
 
 // for loops
 
