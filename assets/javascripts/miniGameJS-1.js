@@ -25,11 +25,59 @@ var tweetString = "";
 
 var tweets = ["Hi Everybody!", "Good Morning!", "Good Night!", "Midnight...", "Can't sleep..."];
 
-// for loops
+// while loop
+	var i = 0;
 
-	for (var i = 0; i < tweets.length; i++) {
+	while (i < tweets.length) {
+
+// for loops
+	
+	// for (var i = 0; i < tweets.length; i++) {
 
 		tweetString = tweetString + "<p>" + tweets[i] + "</p>";
+		i++;
+
+	// }
+
 }
 
 document.getElementById("tweetDiv").innerHTML = tweetString;
+
+
+
+document.getElementById("guess").onclick = function() {
+
+	var myNumber = document.getElementById("myNumber").value;
+
+	var gotIt = false;
+
+	var numberOfGuesses = 1;
+
+	while (gotIt == false) {
+
+		var guess = Math.random();
+
+		guess = guess * 6;
+
+		guess = Math.floor(guess);
+
+		if (guess == myNumber) {
+			// Computer is correct
+			gotIt = true;
+
+			alert ("Got it! It was a " + guess + ". It took me " + numberOfGuesses + " guesses.")
+
+		} else {
+			// Computer is wrong
+			numberOfGuesses++;
+		}
+
+	}
+
+}
+
+
+
+
+
+
