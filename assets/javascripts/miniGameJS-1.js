@@ -76,15 +76,50 @@ document.getElementById("guess").onclick = function() {
 
 }
 
-function alertMe() {
+function makeAGuess(correctAnswer) {
 
-	alert("Hi there An");
+	var guess = Math.random();
+
+		guess = guess * 6;
+
+		guess = Math.floor(guess);
+
+		if (guess == correctAnswer) {
+			// Computer is correct
+			return (true);
+
+		} else {
+			// Computer is wrong
+			return (false);
+		}
 
 }
 
-	alertMe();
+
+	document.getElementById("guess").onclick = function() {
+
+		var myNumber = document.getElementById("myNumber").value;
+
+		var gotIt = false;
+
+		var numberOfGuesses = 1;
+
+		while (gotIt == false) {
+
+			if (makeAGuess(myNumber) == true) {
+
+				gotIt = true;
+
+				alert ("Got It! It was a " + myNumber + ". It took me " + numberOfGuesses + " guesses.")
+
+			} else {
+
+				numberOfGuesses++;
+			}
+		}
 
 
 
+	}
 
 
