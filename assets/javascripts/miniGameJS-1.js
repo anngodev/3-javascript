@@ -76,6 +76,13 @@ document.getElementById("guess").onclick = function() {
 
 }
 
+function alertMe() {
+
+	alert("Hi there An");
+
+}
+
+	alertMe();
 
 
 
