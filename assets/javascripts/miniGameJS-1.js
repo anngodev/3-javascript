@@ -110,7 +110,7 @@ function makeAGuess(correctAnswer) {
 
 				gotIt = true;
 
-				alert ("Got It! It was a " + myNumber + ". It took me " + numberOfGuesses + " guesses.")
+				alert ("Correct! It was a " + myNumber + ". It took me " + numberOfGuesses + " guesses.")
 
 			} else {
 
